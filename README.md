@@ -106,3 +106,20 @@ Ayman Rammal
 ##  License
 
 This project was developed for educational purposes.
+
+## Screenshots
+
+### Home Page
+![TastyBite Home Page](public/screenshots/home.png)
+
+### About Page
+![TastyBite About Page](public/screenshots/about.png)
+
+### Menu Page
+![TastyBite Menu Page](public/screenshots/menu.png)
+
+### Cart Page
+![TastyBite Cart Page](public/screenshots/cart.png)
+
+### Contact Page
+![TastyBite Contact Page](public/screenshots/contact.png)
