@@ -369,9 +369,14 @@ a {
     gap: 20px;
   }
 
-  .nav-button {
-    display: none;
-  }
+ 
+.nav-button {
+  display: inline-block;
+  font-size: 13px;
+  padding: 10px 12px;
+  white-space: nowrap;
+}
+
 
   .hero-section {
     grid-template-columns: 1fr;
