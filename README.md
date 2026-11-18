@@ -1,16 +1,108 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+#  TastyBite — Restaurant Ordering Website
 
-Currently, two official plugins are available:
+##  Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+TastyBite is a responsive restaurant ordering frontend application built with React.js. It allows users to explore food items, search the menu, filter dishes by category, add items to a shopping cart, update quantities, and review their order.
 
-## React Compiler
+This project was developed as a university frontend development project.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Live Demo
 
-## Expanding the Oxlint configuration
+https://tastybiterestaurant.vercel.app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+##  GitHub Repository
+
+https://github.com/Ayman0224/tastyBite-restaurant
+
+##  Features
+
+- Responsive user interface for desktop and mobile screens.
+- Home page introducing the restaurant.
+- About page describing the restaurant and its values.
+- Menu page displaying food items.
+- Menu search and category filtering.
+- Add-to-cart functionality.
+- Shopping cart with quantity updates and item removal.
+- Automatic calculation of the cart total.
+- Contact form with required-field validation.
+- Client-side navigation using React Router.
+
+##  Application Pages
+
+1. **Home** — Restaurant introduction and featured content.
+2. **About** — Information about TastyBite.
+3. **Menu** — Browse, search, and filter food items.
+4. **Contact** — Contact information and a message form.
+5. **Cart** — Review selected items and calculate the total price.
+
+##  Technologies Used
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- React Router DOM
+- Vite
+- Git and GitHub
+- Vercel
+
+##  Installation and Setup
+
+### Prerequisites
+
+Install Node.js and npm before running the project locally.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Ayman0224/tastyBite-restaurant.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd tastyBite-restaurant
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in the terminal.
+
+### 5. Build for production
+
+```bash
+npm run build
+```
+
+The production files will be generated in the `dist` directory.
+
+##  Project Scope and Limitations
+
+This version is frontend-only and does not use a backend or database.
+
+The cart data is maintained in React state and is not permanently saved after a page refresh. The contact form does not send messages to a server, and placing an order is a demonstration only. No real order or payment is processed.
+
+##  Deployment
+
+The frontend is deployed using Vercel and is connected to the GitHub repository.
+
+Live website: https://tastybiterestaurant.vercel.app
+
+##  Author
+
+Ayman Rammal
+
+##  License
+
+This project was developed for educational purposes.
